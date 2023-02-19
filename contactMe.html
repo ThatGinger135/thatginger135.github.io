@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section id="home">
+            <img src="../gareth.jpeg" class="profile-img" width="60%" height="60%">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="./contactMe.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </section>
+        <section id="about">
+            <p>
+                This is the about information
+            </p>
+
+        </section>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact_form_backend.js">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button"
+                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
