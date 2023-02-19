@@ -30,29 +30,28 @@
 
         </section>
         <section id="contact">
-            <div class="container">
-                <form action="action_page.php">
-              
-                  <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">UK</option>
-                    <option value="canada">US</option>
-                    <option value="usa">Other</option>
-                  </select>
-              
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
-              
-                </form>
-              </div> 
+            <div class="fcf-body">
+
+                <div id="fcf-form">
+                    <h3 class="fcf-h3">Contact us</h3>
+
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Your name</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Your email address</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
         </section>
     </main>
     <footer>
