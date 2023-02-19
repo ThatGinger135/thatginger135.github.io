@@ -2,3 +2,12 @@ img {
     height: auto;
     max-width: 10%;
   }
+
+.fcf-body {
+    font-family: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    color: blueviolet;
+    text-align: left;
+
+}
