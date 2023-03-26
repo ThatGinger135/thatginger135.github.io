@@ -36,7 +36,7 @@ textarea {
 
 /* Submit button */
 button[type=submit] {
-    background-color: #60A6E5;
+    background-color: #3A85C2;
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -46,7 +46,7 @@ button[type=submit] {
 /* Navigation bar */
 .navbar {
     float: left;
-    background-color: #D6E4F0;
+    background-color: #D1EAF2;
     width: 15%;
     height: 100%;
     display: flex;
@@ -68,6 +68,9 @@ button[type=submit] {
 header {
     justify-content: center;
     text-align: center;
+    background-color: #A1C9E3;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* Main content container */
@@ -75,4 +78,13 @@ main {
     float: left;
     width: 85%;
     padding: 2%;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #6E99B3;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
 }
